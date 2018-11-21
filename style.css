@@ -1,0 +1,92 @@
+body{
+	margin:0px;
+	padding: 0px;
+}
+
+#logo{
+		
+		text-align: center;
+		padding-top: 10px;
+}
+
+
+#images{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 70%;
+	margin: 16px;
+	text-align: center;
+	color: white;
+	align-self: center;
+	font-family: 'Permanent Marker', cursive;
+		
+	max-width: 75%;
+}
+
+#map {  
+	margin-top:3%;
+	top: -5;
+	
+	position: sticky!important; /* !important to override Gmaps inline CSS */	
+}
+
+
+ #bigbigbox{
+
+ 	display: flex;
+ 	flex-direction: row;
+ 	margin: 3%;
+
+ }
+
+
+
+
+#mapping{
+	width: 30%;
+	height: 1080px;
+}
+
+h1{
+	padding-top: 55px;
+}
+h2{
+		font-family: 'Permanent Marker', cursive;
+}
+
+ .imagesimple1{
+
+ 		flex-grow: 1;
+ 	margin:15px;
+ 	margin-top: 0px;
+ 	width: 32%;
+ 	height: 200px;
+ 	background-image: url(https://blogvoyages.fr/wp-content/uploads/2014/01/Visiter-venise-2.jpg);
+ 		background-size: cover;
+
+ }
+
+  .imagesimple2{
+  		flex-grow: 1;
+  	margin:15px;
+ 		margin-top: 0px;
+ 	width: 32%;
+ 	height: 200px;
+ 	background-image: url(https://www.alibabuy.com/photos/library/1500/10001.jpg);
+ 		background-size: cover;
+
+ }
+
+  .imagesimple3{
+  		flex-grow: 1;
+  	margin:15px;
+ 		margin-top: 0px;
+ 	width: 32%;
+ 	height: 200px;
+ 	background-image: url(https://sd-cdn.fr/wp-content/uploads/2017/10/Russie-770x515.jpg);
+ 	background-size: cover;
+
+ }
+
